@@ -1,0 +1,43 @@
+@media screen and (max-width:1500px){
+
+   
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .login{
+        left: 42vw;
+    }
+
+    .login a{
+        width: 15vw;
+    }
+
+    .maindiv{
+        top: 31vh;
+    }
+
+    .container{
+        min-height: calc(150vh - 12vh - 5vh);
+    }
+
+    .container h1{
+        justify-content: center;
+        top: 44vh;
+        width: 61vw;
+        left: 25vw;
+    }
+
+    .container p{
+        text-align: center;
+        width: 75vw;
+        top: 52vh;
+    }
+
+
+
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+:root {
+    --main-bg-color: #4bd1f0;;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: var(--main-bg-color);
+    
+}
+nav{
+
+    display: flex;  
+    
+
+}
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5vh;
+
+}
+
+nav ul li{
+    padding: 1.77vw;
+    list-style: none;
+   
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Murecho', sans-serif;
+    
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+.login {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 70vw;
+}
+
+.login a{
+
+   width: 5vw;
+    text-decoration: none;
+    color: white;
+    font-family: 'Murecho', sans-serif;
+}
+
+.login a:hover{
+     font-weight: bolder;
+}
+
+
+.container{
+
+    min-height: calc(98.3vh - 12vh - 5vh);
+    background-color: navajowhite;
+}
+
+.container h1{
+    height: 5vh;
+    width: 26vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 34.5vw;
+    top: 39vh;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 2px;
+}
+
+.maindiv{
+    background-image: url(image/img5.jpg);
+    position: absolute;
+    width: 63%;
+    height: 36vh;
+    left: 50%;
+    top: 26%;
+    background-size: 100% 100%;
+    transform: translate(-50% , -50%);
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+    0%{background-image: url(image/img5.jpg); }
+    35%{background-image: url(image/img6.jpg) }
+    75%{background-image: url(image/img7.jpg) }
+}
+
+.container p{
+    position: relative;
+    top: 40vh;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2vh;
+    width: 120vh;
+    text-align: center;
+    position: relative;
+    left: 16vw;
+}
+
+footer{
+    
+     background-color:var(--main-bg-color);
+     color: white;
+     height: 12vh;
+
+}
+
+.social{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.social img{
+
+    padding: 10px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Murecho', sans-serif;
+}
